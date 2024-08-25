@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/verdana');
+                
+
 *{
 
     padding: 0;
@@ -5,70 +8,111 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-family: 'Verdana', sans-serif;
 
 }
 
 #header{
-    background-color: bisque;
+   
+    background-color: #ffffff;
     width: 100%;
-    height: 50%;
+    height: 40vh;
     display: flex;
-
-}
-
-#bottom{
-
-    width: 100%;
-    height: 40%;
-    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 50px;
 
 }
 
 #imagenHeader{
 
-    width: 60%;
+    width: 60vw;
+    padding-left: 300px;
 }
 
 #informacionHeader{
 
     padding-top: 55px;
-    padding-right: 100px;
-    width: 40%;
+    padding-right: 300px;
+    width: 40vw;
 
 }
 
 #tituloHeader{
-
+    font-weight: 600;
+    font-size: 40px;
     color: #272929;
 
 }
 
 #subtituloHeader{
 
+    padding-top: 20px;
     color: #c0c0c0;
 }
 
-#informacionHeader{
+#parrafoHeader{
 
-    color: #4a6ba1;
+    padding-top: 20px;
+    text-align: justify;
 }
 
 /*Seccion nav*/
 
 #nav{
     
+    justify-content: center;
     display: flex;
     background-color: #bf0514;
     width: 100%;
-    height: 5%;
-    position: relative;
+    height: 10vh;
+    overflow: hidden;
+
 }
 
 .navItems{
-    padding-top: 40px;
-    padding-right: 50px;
-    padding-bottom: 40px;
+
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
+
+#bottom{
+
+    display: flex;
+    width: 100%;
+    height: 40vh;
 
 }
 
+.divCuadrado{
+
+    width: 200px;
+    height: 200px;
+}
+
+#divPlaneta{
+
+    background-color: #bf0514;
+
+}
+
+#divMusica{
+
+    background-color: #4a6ba1;
+}
+
+#divCompra{
+
+    background-color: #c0c0c0;
+}
+
+
+.imgCuadrado{
+
+    width: 200px;
+    height: 200px;
+}
