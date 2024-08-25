@@ -1,13 +1,74 @@
-body{
+*{
 
+    padding: 0;
+    margin: 0;
+}
+
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 #header{
     background-color: bisque;
-    width: 100vw;
+    width: 100%;
+    height: 50%;
     display: flex;
+
+}
+
+#bottom{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+
+}
+
+#imagenHeader{
+
+    width: 60%;
+}
+
+#informacionHeader{
+
+    padding-top: 55px;
+    padding-right: 100px;
+    width: 40%;
+
+}
+
+#tituloHeader{
+
+    color: #272929;
+
+}
+
+#subtituloHeader{
+
+    color: #c0c0c0;
+}
+
+#informacionHeader{
+
+    color: #4a6ba1;
+}
+
+/*Seccion nav*/
+
+#nav{
+    
+    display: flex;
+    background-color: #bf0514;
+    width: 100%;
+    height: 5%;
+    position: relative;
+}
+
+.navItems{
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
 
 }
 
